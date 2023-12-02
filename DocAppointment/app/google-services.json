@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "763435652606",
+    "firebase_url": "https://dasapp-ffb17-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dasapp-ffb17",
+    "storage_bucket": "dasapp-ffb17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763435652606:android:9ffea6b2197ed7fa28dcaf",
+        "android_client_info": {
+          "package_name": "com.example.das"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTw4Uc_09ZDKSoHaKC249W6ywY3HZGFn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763435652606:android:90ab0b4a2822043628dcaf",
+        "android_client_info": {
+          "package_name": "com.example.docappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTw4Uc_09ZDKSoHaKC249W6ywY3HZGFn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763435652606:android:71907328856e9e2728dcaf",
+        "android_client_info": {
+          "package_name": "com.example.doctorsappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTw4Uc_09ZDKSoHaKC249W6ywY3HZGFn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763435652606-v7fc3n9r1ai55b5n3ajtj9ffbetf70mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

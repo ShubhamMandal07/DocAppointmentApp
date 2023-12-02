@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/registericon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginLeft="160dp"
+        android:textSize="28sp"
+        android:layout_marginTop="230dp"
+
+        android:textColor="@color/register"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Full Name"
+            android:textSize="20sp"
+            android:background="@drawable/register"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Confirm Password"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/register"
+                />
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Role"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/register"
+                />
+            <Spinner
+                android:id="@+id/role"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/SelectDoctorTypeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/register"
+                />
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="90dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:background="@drawable/register_button"
+                />
+    </LinearLayout>
+
+</RelativeLayout>

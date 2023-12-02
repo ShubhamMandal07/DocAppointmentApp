@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeAppointment"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/patientNameMA"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/doctor_login"
+            android:hint="Patient Name"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/register"
+                />
+            <Spinner
+                android:id="@+id/typeMP"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/black"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ShowDoctorsByType"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_doctor"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/register"
+                />
+            <Spinner
+                android:id="@+id/genderMP"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dateMP"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/doctor_login"
+            android:hint="Select Date"
+            android:textAlignment="center"
+            android:paddingTop="9dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/timeMP"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/doctor_login"
+            android:hint="Select Time"
+            android:paddingTop="9dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+
+
+        <Button
+            android:id="@+id/makeAppointmentBtn"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/doc_button_login"
+            android:text="Make Appointment"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
